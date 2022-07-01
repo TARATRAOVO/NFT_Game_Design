@@ -33,7 +33,7 @@ const surveyJson =
    elements: [
     {
      type: "imagepicker",
-     name: "Original_Face",
+     name: "original_face",
      title: "捏脸",
      choices: [
       {
@@ -56,62 +56,62 @@ const surveyJson =
     },
     {
      type: "checkbox",
-     name: "Major",
+     name: "major",
      title: "选择专业",
      choices: [
       {
-       value: "item1",
+       value: "hnc",
        text: "人文学部"
       },
       {
-       value: "item2",
+       value: "soc",
        text: "社会学部"
       },
       {
-       value: "item3",
+       value: "eco",
        text: "经济学部"
       },
       {
-       value: "item4",
+       value: "lnp",
        text: "法政学部"
       },
       {
-       value: "item5",
+       value: "tec",
        text: "理工学部"
       }
      ]
     },
     {
      type: "ranking",
-     name: "Weekend",
-     title: "偏爱如何度过周末（排序）",
+     name: "time_waste",
+     title: "最喜欢把时间浪费在...（排序）",
      choices: [
       {
-       value: "item1",
+       value: "library",
        text: "在图书馆畅游梦乡...不是，畅游学海"
       },
       {
-       value: "item2",
+       value: "canteen",
        text: "去食堂尽情品尝后厨阿姨的创意新品"
       },
       {
-       value: "item5",
+       value: "workout",
        text: "世纪馆的健身房，如果你是那个预约成功的幸运儿..."
       },
       {
-       value: "item3",
+       value: "supermarket",
        text: "去超市进行新一周的物资采购吧"
       },
       {
-       value: "item4",
+       value: "ming",
        text: "超喜欢在明德楼的，这里老师讲课好听，人才又多"
       },
       {
-       value: "item7",
+       value: "sports",
        text: "和朋友们一起去球场！"
       },
       {
-       value: "item6",
+       value: "otaku",
        text: "还是待在宿舍吧"
       }
      ]
